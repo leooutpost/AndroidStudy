@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.leo.myapp.Main2Activity"
+    android:baselineAligned="false"
+    >
+
+    <!--第一板块-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="#af0604"
+        android:layout_marginTop="0dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:id="@+id/imageView"
+            android:src="@drawable/topright"
+
+            android:background="#911f04"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="一卡中国"
+            android:id="@+id/textView3"
+
+            android:textColor="#faf8f8"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            />
+
+       <EditText
+           android:layout_width="160dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/editText3"
+
+           android:background="@drawable/input"
+
+           android:layout_gravity="center_vertical"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="搜索"
+            android:id="@+id/textView4"
+            android:textColor="#fcfbfb"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+    <!-- 第二板块-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2dfee"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        >
+            <!--第一列-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+            >
+
+                <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/nicefood"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/picNiceFood"
+                android:onClick="picButton"
+                android:tag="美食"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="美食"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                />
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/buythg"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/picShopping"
+                    android:tag="购物"
+                    android:onClick="picButton" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="购物"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#000000"
+                    />
+        </LinearLayout>
+
+        <!--第二列-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/playfun"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/picEntertainment"
+                android:tag="娱乐"
+                android:onClick="picButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="娱乐"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                />
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/paymoney"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/picPay"
+                android:tag="支付"
+                android:onClick="picButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+        <!--第三列-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/service"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/picLife"
+                android:tag="生活"
+                android:onClick="picButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生活"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                />
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/newcategory"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/picBusiness"
+                android:tag="商家"
+                android:onClick="picButton" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商家"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="   全部"
+        android:id="@+id/textView6"
+        android:textColor="#000000"
+        android:background="#ecf4ec"
+        />
+
+    <!-- 第三板块：ListView -->
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+
+        />
+
+    <!--第四板块：底部-->
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#140f09"-->
+        <!--android:layout_marginTop="-50dp"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/shouye_on"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/newcar"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/ic_menu_more_off"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+
+
+</LinearLayout>
