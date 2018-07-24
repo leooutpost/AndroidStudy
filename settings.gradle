@@ -1,1 +1,1 @@
-include ':app', ':app_demo', ':app_demo_dataBase', ':phoneBook', 'upload_demo'
+include ':app', ':app_demo', ':app_demo_dataBase', ':phoneBook', ':webmodule', 'upload_demo'
