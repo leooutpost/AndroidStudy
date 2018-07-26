@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -48,6 +49,7 @@ public class WebAccessTest extends AppCompatActivity {
                 new MyTask().execute(PATH);
             }
         });
+
 
     }//onCreate end
 
@@ -105,9 +107,11 @@ public class WebAccessTest extends AppCompatActivity {
         @Override
         protected void onPostExecute(String s) {//参数被传入以doInBackground的返回值
             super.onPostExecute(s);
-            if("验证成功".equals(s)){
+            if(!"验证失败".equals(s)){
                 Toast.makeText(WebAccessTest.this, "验证成功！跳转！", Toast.LENGTH_SHORT).show();
-                Intent i=new Intent(WebAccessTest.this,HomeActivity.class);
+                //Log.i("json:",s);
+                Intent i=new Intent(WebAccessTest.this,ManagerListActivity.class);
+                i.putExtra("jsonData",s);
                 startActivity(i);
 
             }else{

@@ -7,15 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.leo.webmodule.HomeActivity">
+    tools:context=".ManagerListActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="欢迎登入"
+        android:text="管理员名单"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="144dp" />
+        android:layout_marginTop="67dp" />
+
 </RelativeLayout>
