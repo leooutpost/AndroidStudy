@@ -1,1 +1,1 @@
-include ':app', ':app_demo', ':app_demo_dataBase', ':phoneBook', ':webmodule', 'upload_demo'
+include ':app', ':app_demo', ':app_demo_dataBase', ':phoneBook', ':webmodule', ':mediaplayertest', ':localmusicplayer', 'upload_demo', ':rollviewpage_demo', 'erweima_demo', ':libzxing'

@@ -6,8 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_demo/app_demo.iml" filepath="$PROJECT_DIR$/app_demo/app_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_demo_dataBase/app_demo_dataBase.iml" filepath="$PROJECT_DIR$/app_demo_dataBase/app_demo_dataBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/erweima_demo/erweima_demo.iml" filepath="$PROJECT_DIR$/erweima_demo/erweima_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/localmusicplayer/localmusicplayer.iml" filepath="$PROJECT_DIR$/localmusicplayer/localmusicplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaplayertest/mediaplayertest.iml" filepath="$PROJECT_DIR$/mediaplayertest/mediaplayertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/phoneBook/phoneBook.iml" filepath="$PROJECT_DIR$/phoneBook/phoneBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/phoneBook/phoneBooks.iml" filepath="$PROJECT_DIR$/phoneBook/phoneBooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" filepath="$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/upload_demo/upload_demo.iml" filepath="$PROJECT_DIR$/upload_demo/upload_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/webmodule/webmodule.iml" filepath="$PROJECT_DIR$/webmodule/webmodule.iml" />
     </modules>
