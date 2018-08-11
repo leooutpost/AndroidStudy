@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/mediaplayertest/mediaplayertest.iml" filepath="$PROJECT_DIR$/mediaplayertest/mediaplayertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/phoneBook/phoneBook.iml" filepath="$PROJECT_DIR$/phoneBook/phoneBook.iml" />
       <module fileurl="file://$PROJECT_DIR$/phoneBook/phoneBooks.iml" filepath="$PROJECT_DIR$/phoneBook/phoneBooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restaurantorder/restaurantorder.iml" filepath="$PROJECT_DIR$/restaurantorder/restaurantorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restaurantorder/restraurantorder.iml" filepath="$PROJECT_DIR$/restaurantorder/restraurantorder.iml" />
       <module fileurl="file://$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" filepath="$PROJECT_DIR$/rollviewpage_demo/rollviewpage_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/upload_demo/upload_demo.iml" filepath="$PROJECT_DIR$/upload_demo/upload_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/webmodule/webmodule.iml" filepath="$PROJECT_DIR$/webmodule/webmodule.iml" />
